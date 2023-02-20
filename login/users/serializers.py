@@ -7,7 +7,7 @@ from django.contrib.auth.password_validation import validate_password    # 장�
 from rest_framework import serializers
 from rest_framework.authtoken.models import Token    # 토큰 모델(로그인창 만들때)
 from rest_framework.validators import UniqueValidator   # 이메일 중복 방지를 위한 검증 도구
-# from rest_framework.authtoken.serializers import TokenSerializer
+#from rest_framework.authtoken.serializers import TokenSerializer
 
 # 회원 가입 시리얼라이저
 class RegisterSerializer(serializers.ModelSerializer):
